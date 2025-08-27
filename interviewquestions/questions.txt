@@ -1,0 +1,230 @@
+### JavaScript (Core Language - Applies to Both Frontend and Backend)
+
+JavaScript is foundational for your stack. Focus on ES6+ features, as they're common in interviews. Revise these daily by writing code snippets or explanations.
+
+#### Common Conceptual Questions
+1. Explain hoisting in JavaScript.
+2. What is the difference between `let`, `const`, and `var`?
+3. Describe closures and provide an example.
+4. What are promises? How do they differ from callbacks?
+5. Explain async/await and how it handles errors.
+6. What is the event loop? How does it work with the call stack?
+7. Differentiate between `==` and `===`.
+8. What are arrow functions? When should you use them?
+9. Explain prototypal inheritance.
+10. What is `this` keyword? How does it change in different contexts (e.g., arrow vs. regular functions)?
+
+#### Common Coding/Practical Questions
+1. Write a function to debounce a callback (e.g., for search input).
+2. Implement a deep clone of an object.
+3. Write code to flatten a nested array (e.g., using recursion or flat()).
+4. Explain and code a simple curry function.
+5. How would you handle errors in asynchronous code?
+6. Write a polyfill for `Array.prototype.map`.
+7. Detect if a string is a palindrome, ignoring case and non-alphabets.
+8. Implement a simple event emitter.
+9. Explain and code memoization for a Fibonacci function.
+10. How do you optimize performance for large arrays (e.g., using generators)?
+
+### Python (Backend Language)
+
+Python questions often focus on syntax, data structures, and best practices. Since you use FastAPI, tie in web-related concepts.
+
+#### Common Conceptual Questions
+1. What are the key differences between Python 2 and Python 3?
+2. Explain list comprehensions vs. generator expressions.
+3. What is the Global Interpreter Lock (GIL) and its impact?
+4. Describe decorators and when to use them.
+5. What are *args and **kwargs? Provide examples.
+6. Explain mutable vs. immutable types (e.g., lists vs. tuples).
+7. How does Python handle memory management (garbage collection)?
+8. What is a metaclass?
+9. Differentiate between shallow and deep copy.
+10. Explain context managers (e.g., `with` statement).
+
+#### Common Coding/Practical Questions
+1. Write a function to merge two sorted lists.
+2. Implement a simple decorator for timing function execution.
+3. Write code to read and parse a JSON file.
+4. Find the most frequent element in a list.
+5. Implement a generator for prime numbers.
+6. Write a class with a property decorator.
+7. Handle exceptions in a try-except block with multiple clauses.
+8. Use lambda functions in sorting a list of dictionaries.
+9. Implement a simple cache using a dictionary.
+10. Write code to reverse a string without using built-in methods.
+
+### Node.js (Backend Framework)
+
+Node.js interviews emphasize event-driven architecture, modules, and scalability. Practice with Express or built-in modules if not using a specific framework.
+
+#### Common Conceptual Questions
+1. What is Node.js? Why is it single-threaded but non-blocking?
+2. Explain the difference between `require` and `import`.
+3. What is middleware in Express/Node.js?
+4. How does Node.js handle clustering for multi-core systems?
+5. Describe streams in Node.js and their types.
+6. What is the purpose of `process.nextTick()` vs. `setImmediate()`?
+7. Explain error handling in Node.js (e.g., uncaught exceptions).
+8. What are modules? How do you create and export one?
+9. Discuss security best practices (e.g., helmet, rate limiting).
+10. How would you handle authentication (e.g., JWT in Node.js)?
+
+#### Common Coding/Practical Questions
+1. Build a simple REST API endpoint using Express.
+2. Write code to read a file asynchronously.
+3. Implement a basic WebSocket server.
+4. Handle file uploads using multer.
+5. Write a script to connect to a MongoDB database.
+6. Create a custom error class and middleware to handle it.
+7. Use promises to chain multiple async operations.
+8. Implement caching with Redis in Node.js.
+9. Write code for a rate limiter middleware.
+10. Debug a memory leak scenario (explain steps).
+
+### FastAPI (Backend Framework)
+
+FastAPI is modern and Python-based; questions focus on async, type hints, and API design. Revise by building small apps.
+
+#### Common Conceptual Questions
+1. What makes FastAPI faster than Flask or Django?
+2. Explain dependency injection in FastAPI.
+3. How do you handle async routes in FastAPI?
+4. What are Pydantic models? Why use them?
+5. Describe API routing and path parameters.
+6. How does FastAPI integrate with databases (e.g., SQLAlchemy)?
+7. Explain authentication methods (e.g., OAuth2).
+8. What is middleware in FastAPI?
+9. How do you add CORS support?
+10. Discuss testing in FastAPI (e.g., using TestClient).
+
+#### Common Coding/Practical Questions
+1. Create a simple CRUD API for a todo list.
+2. Define a Pydantic model for user registration.
+3. Write an async endpoint to fetch data from an external API.
+4. Implement JWT authentication.
+5. Add query parameters to an endpoint.
+6. Handle file uploads in an endpoint.
+7. Write a custom exception handler.
+8. Integrate with a database using Tortoise-ORM or SQLAlchemy.
+9. Add pagination to a list endpoint.
+10. Deploy a FastAPI app (explain steps with uvicorn/Gunicorn).
+
+### React (Frontend Framework)
+
+React questions cover components, state, hooks, and performance. Practice by coding components.
+
+#### Common Conceptual Questions
+1. What is the virtual DOM? How does it work?
+2. Explain the difference between class and functional components.
+3. What are hooks? Name a few and their uses.
+4. Describe state vs. props.
+5. How does React handle routing (e.g., React Router)?
+6. Explain the component lifecycle (e.g., useEffect equivalents).
+7. What is JSX? How is it transpiled?
+8. Discuss context API vs. Redux for state management.
+9. How do you optimize React performance (e.g., memoization)?
+10. What are controlled vs. uncontrolled components?
+
+#### Common Coding/Practical Questions
+1. Build a counter component with useState.
+2. Fetch data from an API using useEffect.
+3. Create a form with validation.
+4. Implement a todo list with add/delete.
+5. Use context to pass data down the tree.
+6. Write a custom hook for debouncing.
+7. Handle routing with React Router.
+8. Optimize a list with React.memo.
+9. Implement lazy loading with Suspense.
+10. Debug a re-render issue (explain tools like Profiler).
+
+### General Frontend Questions (HTML, CSS, JS in Browser)
+
+These are broader, often mixed with React. Focus on accessibility and responsiveness.
+
+#### Common Conceptual Questions
+1. Explain semantic HTML and its benefits.
+2. What is the box model in CSS?
+3. Describe flexbox vs. grid.
+4. How do you handle responsive design (media queries)?
+5. What is event bubbling vs. capturing?
+6. Explain CORS and how to handle it.
+7. Discuss web performance optimization (e.g., lazy loading images).
+8. What are service workers?
+9. How does browser rendering work (critical rendering path)?
+10. Explain accessibility (ARIA roles).
+
+#### Common Coding/Practical Questions
+1. Style a responsive navbar with CSS.
+2. Write JS to manipulate DOM (e.g., add/remove elements).
+3. Implement a modal popup.
+4. Use localStorage to persist data.
+5. Handle form submission with validation.
+6. Create a grid layout with CSS Grid.
+7. Debounce a scroll event listener.
+8. Fetch and display data from an API in vanilla JS.
+9. Animate an element with CSS transitions.
+10. Debug a layout issue (e.g., overflow).
+
+### General Backend Questions
+
+These apply across Node.js and FastAPI. Focus on architecture.
+
+#### Common Conceptual Questions
+1. What is REST vs. GraphQL?
+2. Explain microservices architecture.
+3. How do you handle database migrations?
+4. Discuss caching strategies (e.g., Redis).
+5. What is JWT vs. session-based auth?
+6. Explain rate limiting and throttling.
+7. How do you secure APIs (e.g., HTTPS, input validation)?
+8. Describe Docker and containerization.
+9. What is CI/CD? Give an example pipeline.
+10. Handle scalability (e.g., load balancing).
+
+#### Common Coding/Practical Questions
+1. Design a database schema for a blog app.
+2. Implement pagination in an API.
+3. Write code for email sending (e.g., nodemailer or smtplib).
+4. Handle concurrency (e.g., locks in Python).
+5. Integrate with a third-party API.
+6. Log errors effectively.
+7. Optimize a slow query.
+8. Deploy to Heroku/AWS (steps).
+9. Use environment variables for config.
+10. Test an API endpoint.
+
+### Full Stack Questions (Integration and End-to-End)
+
+These tie frontend and backend together. Practice by building mini projects.
+
+#### Common Conceptual Questions
+1. How do you connect React to a Node.js/FastAPI backend?
+2. Explain SSR vs. CSR (e.g., with Next.js).
+3. Discuss deployment strategies (e.g., Vercel for frontend, AWS for backend).
+4. How do you handle authentication across front and back?
+5. What is CORS and how to resolve issues?
+6. Describe a full stack app architecture (e.g., MERN vs. your stack).
+7. How do you manage state in a full stack app?
+8. Explain WebSockets for real-time features.
+9. Discuss monitoring and logging in production.
+10. How would you optimize end-to-end performance?
+
+#### Common Coding/Practical Questions
+1. Build a full auth flow (login/register with JWT).
+2. Integrate React with a FastAPI endpoint.
+3. Handle file uploads from frontend to backend.
+4. Implement real-time chat with Socket.io (Node) or WebSockets (FastAPI).
+5. Deploy a full stack app (e.g., frontend on Netlify, backend on Render).
+6. Debug a cross-origin issue.
+7. Use Redux for global state with API calls.
+8. Add error handling across layers.
+9. Scale a full stack app (explain sharding).
+10. Test end-to-end with tools like Cypress.
+
+### Daily Revision Plan
+- **Day 1-2:** JS and Python concepts + coding.
+- **Day 3-4:** Node.js and FastAPI.
+- **Day 5-6:** React and General Frontend.
+- **Day 7:** General Backend and Full Stack.
+- Rotate weekly, mixing 5-10 questions per session. Write answers/explanations on paper, then code them. Review weak areas from past interviews or mocks. If you encounter Svelte/Next.js questions, adapt React knowledge (e.g., Next.js builds on React). Good luck!
