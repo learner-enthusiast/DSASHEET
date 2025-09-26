@@ -8,7 +8,7 @@ var fib = function (n, obj = {}) {
 function fib_Tabulation(n) {
   if (n <= 1) return n;
 
-  let array = Array[n + 1].fill(0);
+  let array = Array(n + 1).fill(0);
   array[1] = 1;
   for (let i = 2; i <= n; i++) {
     array[i] = array[i - 1] + array[i - 2];
