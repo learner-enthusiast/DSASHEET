@@ -16,6 +16,7 @@ class BinarySearchTree {
     if (this.root === null) {
       this.root = newNode;
     } else {
+      this.insertNode(root, newNode);
     }
   }
 
